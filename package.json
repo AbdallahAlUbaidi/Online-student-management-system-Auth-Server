@@ -12,7 +12,8 @@
   "version": "1.0.0",
   "main": "AuthServer.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node AuthServer.js",
+    "devStart" : "nodemon AuthServer.js"
   },
   "author": "",
   "license": "ISC",
